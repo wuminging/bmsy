@@ -1,0 +1,156 @@
+<HTML>
+    <head><title>学习</title></head>
+    <body background="11.jpg" >
+    </body>
+        <style>
+          .yonghu{width: 300px;border-color: #ff0000; border-width: 1px;}
+          ol{list-style: none;}
+          input:hover{size: 200px; border-color: red; border-width: 2px;}
+          img{float: right;}
+        </style>
+        a&lt;b&gt;c
+        <table border="1px" width="50%" height="200px">
+        <thead>
+        <tr align="center">
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+            <th>4</th>
+            <td rowspan="2">56</td>
+        </tr>
+        </thead>
+        <tr  align="center">
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+          
+        </tr>
+        <tbody>
+         <tr  align="center">
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+        </tr> p
+        <tr  align="center">
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td colspan="3">456</td>   
+        </tr> 
+    </tbody>
+    <tfoot>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td  align="center">4</td>
+            <td>5</td>
+        </tr>
+    </tfoot>
+        </table>
+        a&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a&lt;b&gt;c
+        <br>
+        <img src="12.jpg" alt="图片找不到了"  width="300px" title="点击跳转">
+        <br>
+        <a href="http://www.baidu.com" target="_blank">百度</a>
+        <br>
+        <a href="http://www.baidu.com" target="_blank"><img src="12.jpg" alt="" width='300px' title="点击跳转百度"></a>
+        <br>
+        <iframe src="http://www.baidu.com"></iframe>
+        <ul>
+            <li type="square">呵呵</li>
+            <ul>
+                <li type="disc">哈哈</li>
+                <li>哈哈</li>
+                <li>哈哈</li>
+                <li>哈哈</li>
+                <li>哈哈</li>
+            </ul>
+            <li>呵呵</li>
+            <li>呵呵</li>
+            <li>呵呵</li>
+        </ul>
+        <ol type="I">
+            <li>哈哈</li>
+            <ol type="A">
+                <li>呵呵</li>
+                <li>呵呵</li>
+                <li>呵呵</li>
+                <li>呵呵</li>
+            </ol>
+            <li>哈哈</li>
+            <li>哈哈</li>
+            <li>哈哈</li>
+            <li>哈哈</li>
+        </ol>
+        <form action="http://www.baidu.com">
+            <input type="submit" value="百度">
+            <input type="button" value="百度">
+        </form>
+        <br>
+        <form action="http://192.168.145.2:8080/crm/login">
+            用户名：<input type="text" name="x">
+            <br>
+            密码：<input type="password" name="y">
+            <br>
+            <input type="submit" value="登录">
+        </form>
+        <form action="http://localhost:80/crm/register">
+        用户名：<input type="text" name="username">
+        <br>
+        密码：<input type="password" name="userpwd">
+        <br>
+        性别：<input type="radio" name="sex" value="1" checked>男
+              <input type="radio" name="sex" value="0">女
+              <br>
+              兴趣<input type="checkbox" name="" aihao value="wan">玩
+              <input type="checkbox" name="" aihao value="xue" checked>学
+              <input type="checkbox" name="" aihao value="tang">躺
+              <input type="checkbox" name="" aihao value="chi">吃
+              <br>
+              学历<select name="xueli" >
+                <option value="gz">高中</option> 
+                <option value="zk">专科</option>
+                <option value="bk" selected>本科</option>
+                <option value="ss">硕士</option>
+              </select>
+              <br>
+              特长<select name="techang"  size="3" multiple>
+                  <option value="yy">音乐</option>
+                  <option value="ms">美术</option>
+                  <option value="wd">舞蹈</option>
+                  <option value="ls">朗诵</option>
+              </select>
+              <br>
+              简历<textarea rows="10" cols="60" name="jianjie"></textarea>
+              <br>
+              <input type="submit" value="注册">
+              <br>
+             <input type="file">
+             <br>
+             <input type="submit" value="文件上传">
+             <br>
+             <input type="hidden" name="usercode" value="1111">
+             <input type="submit" value="提交">
+             <br>
+             用户代码<input type="text" name="orgcode" value="1111" readonly>
+             <br>
+             机构代码<input type="text" name="usercode" value="2222" disabled>
+             <br>
+             用户<input type="text" maxlength="4" class="yonghu">
+      </form>
+      <br>
+      <div id="div1" style="background-color: black;" width:300px;height300px></div>
+      <br>
+      <input type="button" value="hello" onclick="window.alert('hello world')" ondblclick="alert(xjq)" >
+      <script type="text/javasript">
+        alert('hello world') 
+        alert('hello lihua') 
+        alert('hello xjq')</script>
+      <input type="button" value="按钮1"><br>
+      <input type="button" value="按钮2">
+    </body>
+</HTML>
